@@ -1,3 +1,4 @@
+
 *{
     margin: 0;
     box-sizing: border-box;
@@ -9,7 +10,70 @@
 body{
     background-color: black;
 }
+.navbar{
+    position: fixed;
+    top: 0;
+    z-index: 90;
+    color: white;
+}
+.logo{
+    color: white; 
+}
 
+.navbar li{
+    margin-left: 30px;
+}
+.navbar li a{
+    padding: 6px 60px;
+    border-radius: 20px;
+    color: white;
+}
+.navbar li a:hover{
+    background-color: rgba(255, 255, 255, 0.356);
+    color: rgb(49, 47, 47);
+}
+.container__carousel img{
+    width: 100%;
+    height: 100vh;
+    object-fit: cover; 
+    object-position: 0% 0%;
+}
+.contenedor-columnas{
+    /* margin-left:5%;
+    margin-right:5%; */
+    display: flex;
+    justify-content: space-between;
+}
+.columna{
+    /* border: solid 5px red; */
+    width: 30%;
+}
+.icono{
+    text-align: center; 
+    background-color: lightseagreen;
+    height: 2.5em;
+    
+}
+.icono i{
+    position: relative;
+    top: 10px;
+    font-size: 1.1em;
+}
+.contenedor-card{
+    display: flex;
+    justify-content: space-between;
+    margin: 4%;
+    
+}
+.card{
+    background-color: lightseagreen;
+    /* margin: 0 1em; */
+
+}
+.imagen-reajustada{
+    height: 12rem;
+    object-fit: cover;
+}
 
 footer{
     background-color: gray;
