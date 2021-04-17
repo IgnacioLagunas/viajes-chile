@@ -20,8 +20,15 @@ body{
     z-index: 90;
     color: white;
 }
+.img-logo{
+    width: 2rem;
+    position: relative;
+    top: -4px;
+    margin-right: 10px;
+}
 .logo{
-    color: white; 
+    color: white;
+    letter-spacing: 1px; 
 }
 
 .navbar li{
@@ -37,7 +44,7 @@ body{
     color: rgb(49, 47, 47);
 }
 .container__carousel img{
-    width: 100%;
+    width: 100vw;
     height: 100vh;
     object-fit: cover; 
     object-position: 0% 0%;
@@ -76,11 +83,12 @@ body{
 .contenedor-card{
     display: flex;
     justify-content: space-between;
-    margin: 4%;
+    
     
 }
 .card{
     background-color: lightseagreen;
+    width: 18rem;
     /* margin: 0 1em; */
 
 }
@@ -90,26 +98,72 @@ body{
 }
 
 footer{
-    background-color: gray;
+    background-color: lightseagreen;
 }
 .footer-text{
     position: relative;
     top: 5px;
+    
 }
 .svgs{
     position: absolute;
     right: 0;
     top: 5px;
+    display: flex;
+    justify-content: flex-end;
 }
 .svgs i{
     margin-left: 1em;
     font-size: 2.6em;
 }
 
-@media only screen and (max-width: 1290px) {
+@media only screen and (max-width: 1200px) {
     
     .svgs{
-        right:80px;
+        /* right:80px; */
+        position: static;
+        justify-content: center;
+    }
+    .icon-left i{
+        margin-left: 0;
+    }
+    .footer-text{
+        text-align: center;
+        margin-bottom: 20px;
     }
 
+
+}
+
+  /* @media only screen and (max-width: 1200px){
+     .card{
+        width: 14rem;
+    }
+    .card{
+        width: 21rem;
+        
+        
+    }
+    .card img{
+        height: 11rem;
+    } */
+    /* .imagen-reajustada{
+        height: 11rem;
+    } 
+}
+ @media only screen and (max-width: 960px){
+    .card{
+        width: 16rem;
+        
+        
+    }
+    .card img{
+        height: 9rem;
+    }
+}   */
+@media only screen and (max-width: 540px){
+    .card{
+        width: 15rem;
+
+    }
 }

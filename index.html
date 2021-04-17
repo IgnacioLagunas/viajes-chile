@@ -28,7 +28,7 @@
 
     <nav class="navbar navbar-expand-lg navbar-dark bg-transparent container-fluid">
         <div class="container col-10">
-            <a class="navbar-brand logo" href="#">Navbar</a>
+            <a class="navbar-brand logo" href="#"><img class="img-logo" src="assets\img\viajes.svg" alt=""> Viajes Chile</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
             </button>
@@ -79,7 +79,7 @@
 
 <!-- Quienes somos_ -->
 
-<div class="quienes-somos info container col-10 ">
+<div class="quienes-somos info container col-10 d-none d-md-block">
     <h2 class="text-center my-5 pb-3 borde mx-auto">¿Quienes somos?</h2>
     <div class="contenedor-columnas row ">
         <div class="columna col-12 col-xl-4">
@@ -91,10 +91,13 @@
             </div>
         </div>
         <div class="columna col-12 col-xl-4">
+            <div class="icono d-xl-none mb-4">
+                <p><i class="fas fa-mountain"></i></p>
+            </div>
             <div class="texto">
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora temporibus porro velit libero officia beatae, placeat vitae repellendus harum quia voluptate eius eos consequuntur commodi, optio explicabo officiis maiores modi! <br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, molestiae harum molestias error sapiente, culpa illum maxime doloremque adipisci ab natus necessitatibus soluta quod inventore exercitationem, eveniet temporibus debitis saepe. <br>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error veritatis hic quaerat similique asperiores repellat magnam corrupti consectetur blanditiis ipsum, saepe exercitationem et nesciunt nobis distinctio commodi pariatur incidunt dolorum.</p>
             </div>
-            <div class="icono ">
+            <div class="icono d-none d-xl-block">
                 <p><i class="fas fa-mountain"></i></p>
             </div>
         </div>
@@ -114,8 +117,8 @@
 <div class="destacados container col-10">
     <h2 class="text-center my-5 pb-3 borde">Destacados</h2>
     <div class=" contenedor-card row">
-        <div class="col-12 col-lg-6 col-xl-3 carta">
-            <div class="card mx-auto" style="width: 18rem;">
+        <div class="col-12 col-lg-6 col-xl-3 mb-4 mb-xl-0 carta">
+            <div class="card mx-auto">
                 <img src="assets\img\card1.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
                 <h4>Lorem ipsum dolor sit amet consectetur</h4>
@@ -124,8 +127,8 @@
             </div>
         </div>
 
-        <div class="col-12 col-lg-6 col-xl-3 carta">
-            <div class="card mx-auto" style="width: 18rem;">
+        <div class="col-12 col-lg-6 col-xl-3 mb-4 mb-xl-0 carta">
+            <div class="card mx-auto " >
                 <img src="assets\img\card2.jpg" class="card-img-top imagen-reajustada" alt="...">
                 <div class="card-body">
                     <h4>Lorem ipsum dolor sit amet consectetur</h4>
@@ -134,8 +137,8 @@
             </div>
         </div>
 
-        <div class="col-12 col-lg-6 col-xl-3 carta">
-            <div class="card mx-auto" style="width: 18rem;">
+        <div class="col-12 col-lg-6 col-xl-3 mb-4 mb-xl-0 carta">
+            <div class="card mx-auto" >
                 <img src="assets\img\card3.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h4>Lorem ipsum dolor sit amet consectetur</h4>
@@ -144,8 +147,8 @@
             </div>
         </div>
     
-        <div class="col-12 col-lg-6 col-xl-3 carta">
-            <div class="card mx-auto" style="width: 18rem;">
+        <div class="col-12 col-lg-6 col-xl-3 mb-4 mb-xl-0 carta">
+            <div class="card mx-auto" >
                 <img src="assets\img\card4.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h4>Lorem ipsum dolor sit amet consectetur</h4>
@@ -168,15 +171,15 @@
 
 <!-- Footer -->
 
-<footer class="container-fluid mt-5 py-2">
+<footer class="container-fluid mt-5 py-4 py-sm-2">
     <div class="container col-8">
         <div class="row">
-            <div class="col-12 col-xl-4">
-                <h2 class="footer-text">VIAJES CHILE</h2>
+            <div class="col-12 col-xl-6">
+                <h2 class="footer-text logo d-none d-sm-block">Viajes Chile</h2>
             </div>
-            <div class="svgs row col-12 col-xl-4">
-                <div class="">
-                    <i class="fab fa-github-square"></i>
+            <div class="svgs row col-12 col-xl-6">
+                <div class="icon-left">
+                    <i class=" fab fa-github-square"></i>
                 </div>
                 <div class="">
                     <i class="fab fa-linkedin"></i>
